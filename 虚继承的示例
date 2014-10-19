@@ -7,7 +7,7 @@ class Person
     int id ;
     char name[100] ;
     public:
-            Person()
+            Person() //构造函数不能是虚函数
             {
                 cout<<"Create Person Object !"<<endl;
             }
