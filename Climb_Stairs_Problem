@@ -52,3 +52,46 @@ int main()
         The Answer is :8
  
 */
+
+
+/*
+  动态规划-------->至顶向下方案
+*/
+#if 0
+int fib_array[50] = {0}; //至顶向下 用一个数组记录已经计算出来的值
+int Mem_fib(int n)
+{
+    int t ;
+    if ( fib_array[n] != 0 )
+        return fib_array[n];
+    if ( n == 1 )
+        t = 1 ;
+    if ( n == 2 )
+        t = 2 ;
+    if ( n > 1 )
+    {
+        t = Mem_fib(n-1) + Mem_fib(n-2) ;
+    }
+    return fib_array[n] = t;
+}
+
+int main()
+{
+    int n ;
+    cout<<"Please Input A Number :";
+    cin>>n ;
+    cout<<"The Answer is :"<<Mem_fib(n)<<endl;
+    return 1;
+}
+#endif 
+
+/*
+  The Answer as follow ---------->
+            
+            Please Input A Number :5
+            The Answer is :8
+
+            Process returned 0 (0x0)   execution time : 2.180 s
+            Press any key to continue.
+
+*/
