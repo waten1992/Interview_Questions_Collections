@@ -57,7 +57,7 @@ int main()
 /*
   动态规划-------->至顶向下方案
 */
-#if 0
+#if 1
 int fib_array[50] = {0}; //至顶向下 用一个数组记录已经计算出来的值
 int Mem_fib(int n)
 {
