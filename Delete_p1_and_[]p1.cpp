@@ -1,3 +1,12 @@
+/*
+new 和 delete 的规则:
+    1-不要使用delete来释放不是new分配的内存
+    2-不要使用delete释放同一个内存两次；
+    3-int *p = new int[Num] 的数组分配内存，应该用 delete [] p ;
+    4-int *p = new int 分配的一个单位，应该使用 delete p；
+
+*/
+
 #include <iostream>
 using namespace std;
 
@@ -13,7 +22,6 @@ public:
         cout << "++++>Destructor+++" << endl;
     }
 };
-
 int main()
 {
     const int NUM = 2;
@@ -27,7 +35,6 @@ int main()
 }
 /*
 The answer as follow---->
-
 --->Constructor---
 --->Constructor---
 ++++>Destructor+++
