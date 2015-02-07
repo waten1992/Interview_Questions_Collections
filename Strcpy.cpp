@@ -32,3 +32,11 @@ int main()
     delete []dest;
     return 0;
 }
+/*
+The answer as follow--->
+This is ---> www.orderbf.com
+
+Process returned 0 (0x0)   execution time : 0.027 s
+Press any key to continue.
+
+*/
