@@ -1,3 +1,6 @@
+/*
+虚函数的实例：基类的指针指向派生类的对象，就是访问派生类的函数，实现多态
+*/
 #include<iostream>
 #include<string>
 using namespace std;
