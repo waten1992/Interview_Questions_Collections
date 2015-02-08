@@ -7,6 +7,7 @@
 伪代码：---> int  Left = 0 , Right = len -1 ; //这里需要注意的地方
         ---> 边界的检测--数组的长度是否是大于1
                             ------>若不是则break；
+        利用排好序后的夹逼，若target  > 最大+最小，则小的向后移动。否者大的向前移动；
         ---> while(Left < Right)
             {
                 int cuurent = a[Left] + a[Right] ;
