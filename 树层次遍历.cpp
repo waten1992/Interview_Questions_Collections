@@ -1,6 +1,9 @@
 /*
 描述：对一棵树采用采用层次遍历；
-解决方案：1-采用队列依次把根节点压入，在弹出，在按顺序压入左右孩子；
+解决方案：1- 采用队列依次把根节点压入，输出队首元素，然后弹出；
+          2- 若存在左右孩子，则按顺序压入左右孩子；
+          3- 输出队列首元素，弹出队首。判断左右孩子是否为空回到2；
+          4- 直到队列为空；
 
 */
 
@@ -116,18 +119,18 @@ private:
         }
         t = NULL;
     }
-    void printTree( BinaryNode *t, ostream & out ) const
+    void printTree( BinaryNode *t, ostream & out ) const //树的层次遍历
     {
         queue<BinaryNode*> qu;
-        qu.push(t);
+        qu.push(t); //首先压入根节点
         while(!qu.empty())
         {
-            BinaryNode * Tmp = qu.front() ;
-            qu.pop();
+            BinaryNode * Tmp = qu.front() ; //获取根节点
+            qu.pop(); //首节点出队
             out<<Tmp->element<<"\t";
-            if (Tmp->left != nullptr)
-                qu.push(Tmp->left);
-            if (Tmp->right != nullptr)
+            if (Tmp->left != nullptr) //左孩子存在，则进队列
+                qu.push(Tmp->left); 
+            if (Tmp->right != nullptr) //右孩子存在，则进队列
                 qu.push(Tmp->right);
         }
         cout<<endl;
