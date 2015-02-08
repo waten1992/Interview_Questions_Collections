@@ -72,7 +72,46 @@ collections highly frequency interview questions
 
 
 ----------
+## 剔除A串中B串的字符.cpp ##
 
+[剔除A串中B串的字符][19]
+
+![Solution][20]
+
+![code][21]
+
+
+----------
+## 合并2个有序的链表.cpp ##
+
+[合并2个有序的链表][22]
+
+![Solution][23]
+
+![Code][24]
+
+
+----------
+## 数组是否存在A+B=target.cpp ##
+[数组是否存在A+B=target][25]
+
+![Solution][26]
+
+![Code][27]
+
+
+----------
+## 树层次遍历.cpp ##
+[树层次遍历][28]
+
+![Solution][29]
+
+![code][30]
+
+
+----------
+## 虚继承的示例.cpp ##
+[虚继承的示例][31]
 
   [1]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/2%E4%B8%AA%E6%95%B0%E7%9B%B8%E5%8A%A0%E4%B8%94%E4%B8%8D%E7%94%A8%E5%8A%A0%E6%B3%95%E5%92%8C%E5%85%B6%E4%BB%96%E8%BF%90%E7%AE%97%E7%AC%A6.cpp
   [2]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/Image/Not_Use_Plus_Add_TwoNum.JPG
@@ -92,3 +131,16 @@ collections highly frequency interview questions
   [16]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/%E5%88%A4%E6%96%AD%E5%AD%97%E7%AC%A6%E4%B8%B2%E7%AC%A6%E5%8F%B7%E4%B8%B2%5B%5D%20%7B%7D%E6%98%AF%E5%90%A6%E5%8C%B9%E9%85%8D.cpp
   [17]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/Image/Judge_Smybol_Ismatch_Solution.JPG
   [18]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/Image/Judge_Smybol_Ismatch.JPG
+  [19]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/%E5%89%94%E9%99%A4A%E4%B8%B2%E4%B8%ADB%E4%B8%B2%E7%9A%84%E5%AD%97%E7%AC%A6.cpp#L2
+  [20]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/Image/From_A_Eliminate_B_Char_Solution.JPG
+  [21]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/Image/From_A_Eliminate_B_Char_code.JPG
+  [22]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/%E5%90%88%E5%B9%B62%E4%B8%AA%E6%9C%89%E5%BA%8F%E7%9A%84%E9%93%BE%E8%A1%A8.cpp
+  [23]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/Image/Merge_Two_Order_List_Solution.JPG
+  [24]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/Image/Merge_Two_Order_List_Code.JPG
+  [25]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/%E6%95%B0%E7%BB%84%E6%98%AF%E5%90%A6%E5%AD%98%E5%9C%A8A+B=target.cpp
+  [26]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/Image/Find_Target_of_Array_Solution.JPG
+  [27]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/Image/Find_Target_of_Array_Code.JPG
+  [28]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/%E6%A0%91%E5%B1%82%E6%AC%A1%E9%81%8D%E5%8E%86.cpp
+  [29]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/Image/Level_Traverse_Solution.JPG
+  [30]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/Image/Level_Traverse_code.JPG
+  [31]: https://github.com/waten1992/Interview_Questions_Collections/blob/master/%E8%99%9A%E7%BB%A7%E6%89%BF%E7%9A%84%E7%A4%BA%E4%BE%8B.cpp
